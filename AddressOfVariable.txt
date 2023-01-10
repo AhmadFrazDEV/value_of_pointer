@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+main()
+{
+	int var;
+	cout << "Enter the value of variable : ";
+	cin >> var;
+	
+	// printing the address of variable
+	cout << "Address of variable is : " << &var;
+}
